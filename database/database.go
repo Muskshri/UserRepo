@@ -62,7 +62,6 @@ func InitDB()(*gorm.DB, error){
 		}
 
 		return db, err
-
 }
 
 func GetDB() (*gorm.DB){
@@ -70,3 +69,4 @@ func GetDB() (*gorm.DB){
 	fmt.Println("db",db)
 	return db
 }
+
